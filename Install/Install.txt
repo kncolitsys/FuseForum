@@ -1,0 +1,27 @@
+FuseForum Installation Instructions
+-----------------------------------
+
+To install FuseForum download the latest version to your machine.
+
+Unzip into a directory below the webroot. 
+
+For example with a default IIS install you would unzip the file to
+
+C:\Inetpub\wwwroot\
+
+This will create a subdirectory of FuseForum.
+
+Create a new database in MSSQL called FuseForum and run the SQL in 
+Install.sql file to create a set of Tables.
+
+Open the ColdFusion Administrator and add a datasource called 
+FuseForum and point it to your new database.
+
+Access the new application by oping a browser and going to:
+
+http://127.0.0.1/FuseForum/index.cfm
+
+
+
+kevin@objectiveinternet.com
+
